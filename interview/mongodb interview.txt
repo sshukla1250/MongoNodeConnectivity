@@ -1,0 +1,19 @@
+What is mongoDB.
+1. MongoDB is a NoSQL database.
+2. The data stored in a collection.
+3. Collection don't have row and columns.
+4. Data is stored in the form of object.
+
+Commands
+1. show dbs;
+2. use college;
+3. db.createCollection('Personal');
+4. db.dropCollection();
+
+Crud Operations in MongoDB
+=============================================
+1. How to insert data Collection.->db.products.insertOne({});
+2. How to check Inserted Data.->db.products.findOne();
+3. How to Update Data.->db.products.updateOne({name:"sumsung"},{$set:{price:"30000"}});
+4. How to delete Data.->db.products.deleteOne({name:"sumsung"});
+
